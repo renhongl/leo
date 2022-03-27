@@ -3,7 +3,7 @@ node_js:
   - '14.15.0'
 branches:
   only:
-    - main
+    - master
 cache:
   yarn: true
 script:
