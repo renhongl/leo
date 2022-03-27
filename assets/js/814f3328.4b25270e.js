@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[535],{5641:function(s){s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"2022\u5b66\u4e60\u8ba1\u5212","permalink":"/blog/mdx-blog-post"}]}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[318],{63:function(s){s.exports=JSON.parse('{"name":"\u8ba1\u5212","permalink":"/docs/tags/\u8ba1\u5212","docs":[{"id":"\u6570\u636e\u7ed3\u6784/queue","title":"\u961f\u5217","description":"\u63cf\u8ff0","permalink":"/docs/\u6570\u636e\u7ed3\u6784/mdx-blog-post"}],"allTagsPath":"/docs/tags"}')}}]);
