@@ -1,8 +1,8 @@
 ---
-slug: mdx-blog-post
-title: 队列
+slug: /data-model
+title: 数据结构
 authors: [pomelo]
-tags: [计划]
+tags: [数据结构]
 ---
 
 ## 描述

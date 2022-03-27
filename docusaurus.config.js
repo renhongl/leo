@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '柚子',
+  title: 'Leo',
   tagline: '欢迎访问我的网站',
   url: 'https://renhongl.github.io',
   baseUrl: '/pomelo/',
