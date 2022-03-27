@@ -9,9 +9,9 @@ const config = {
   title: '柚子',
   tagline: '欢迎访问我的网站',
   url: 'https://renhongl.github.io',
-  // baseUrl: '/pomelo/',
+  baseUrl: '/pomelo/',
 
-  baseUrl: '/',
+  // baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
