@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://renhongl.github.io/pomelo/blog</id>
-    <title>柚子 Blog</title>
+    <title>Leo Blog</title>
     <updated>2022-03-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://renhongl.github.io/pomelo/blog"/>
-    <subtitle>柚子 Blog</subtitle>
+    <subtitle>Leo Blog</subtitle>
     <icon>https://renhongl.github.io/pomelo/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[2022学习计划]]></title>
