@@ -6,10 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '柚子',
+  tagline: '欢迎访问我的网站',
   url: 'https://renhongl.github.io',
-  baseUrl: '/pomelo/',
+  // baseUrl: '/pomelo/',
+
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -43,8 +45,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [{ name: 'keywords', content: 'pomelo, renhongl' }],
       navbar: {
-        title: 'My Site',
+        title: '柚子的网站',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -54,11 +57,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '文档',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/blog', label: '博客', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/renhongl',
             label: 'GitHub',
             position: 'right',
           },
@@ -68,46 +71,42 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
-                label: 'Tutorial',
+                label: '简介',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '其他作品',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Markdown编辑器',
+                href: 'https://renhongl.github.io/markdown-editor/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Javascript编辑器',
+                href: 'https://renhongl.github.io/code-online#/',
               },
             ],
           },
           {
-            title: 'More',
+            title: '链接',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: '旧博客地址',
+                href: 'https://renhongl.github.io/',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/renhongl',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Pomelo.`,
       },
       prism: {
         theme: lightCodeTheme,
