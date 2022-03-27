@@ -11,7 +11,7 @@ const config = {
   url: 'https://renhongl.github.io',
   baseUrl: '/pomelo/',
 
-  // baseUrl: '/',
+  //baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -50,7 +50,7 @@ const config = {
         title: '柚子的网站',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo2.svg',
         },
         items: [
           {
