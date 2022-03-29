@@ -9,13 +9,13 @@
     <icon>https://renhongl.github.io/pomelo/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[2022学习计划]]></title>
-        <id>mdx-blog-post</id>
-        <link href="https://renhongl.github.io/pomelo/blog/mdx-blog-post"/>
+        <id>/2022/03/15/mdx-blog-post</id>
+        <link href="https://renhongl.github.io/pomelo/blog/2022/03/15/mdx-blog-post"/>
         <updated>2022-03-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[看完所有的面试准备]]></summary>
         <content type="html"><![CDATA[<input type="checkbox" disabled=""> 看完所有的面试准备<input type="checkbox" disabled=""> 学习b站的算法题100道（力扣算法）<input type="checkbox" disabled=""> 读完数据结构与算法书<input type="checkbox" disabled=""> 读完设计模式书<input type="checkbox" disabled="" checked=""> 学习JS库的源代码分析<input type="checkbox" disabled=""> 学习React<input type="checkbox" disabled=""> 准备自我介绍，包括项目经历，技术使用，特长<input type="checkbox" disabled=""> 学习youtube上的设计模式<input type="checkbox" disabled=""> 尽量找视频资源去学习，更能掌握重点]]></content>
         <author>
-            <name>Pomelo</name>
+            <name>Leo</name>
             <uri>https://github.com/renhongl</uri>
         </author>
         <category label="计划" term="计划"/>

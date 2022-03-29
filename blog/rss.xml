@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[2022学习计划]]></title>
-            <link>https://renhongl.github.io/pomelo/blog/mdx-blog-post</link>
-            <guid>mdx-blog-post</guid>
+            <link>https://renhongl.github.io/pomelo/blog/2022/03/15/mdx-blog-post</link>
+            <guid>/2022/03/15/mdx-blog-post</guid>
             <pubDate>Tue, 15 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[看完所有的面试准备]]></description>
             <content:encoded><![CDATA[<input type="checkbox" disabled=""> 看完所有的面试准备<input type="checkbox" disabled=""> 学习b站的算法题100道（力扣算法）<input type="checkbox" disabled=""> 读完数据结构与算法书<input type="checkbox" disabled=""> 读完设计模式书<input type="checkbox" disabled="" checked=""> 学习JS库的源代码分析<input type="checkbox" disabled=""> 学习React<input type="checkbox" disabled=""> 准备自我介绍，包括项目经历，技术使用，特长<input type="checkbox" disabled=""> 学习youtube上的设计模式<input type="checkbox" disabled=""> 尽量找视频资源去学习，更能掌握重点]]></content:encoded>
