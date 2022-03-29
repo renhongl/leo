@@ -1,6 +1,5 @@
 ---
 title: 冒泡排序/Bubble Sort
-authors: [pomelo]
 tags: [排序]
 ---
 

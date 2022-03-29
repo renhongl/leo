@@ -4,9 +4,7 @@ sidebar_position: 1
 
 # 简介
 
-欢迎访问柚子的博客。
-
-我是一个工作四年前端开发，热爱编程，包括 Java 和 Python。
+欢迎访问 Leo 的网站，我是一个前端开发工程师。
 
 [Git Hub](https://github.com/renhongl) / [Demos](https://renhongl.github.io/code-online#/)
 

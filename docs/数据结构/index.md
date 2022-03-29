@@ -1,7 +1,6 @@
 ---
 slug: /data-model
 title: 数据结构
-authors: [pomelo]
 tags: [数据结构]
 ---
 

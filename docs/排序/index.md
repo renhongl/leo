@@ -1,14 +1,10 @@
 ---
 slug: /sort
 title: 排序
-authors: [pomelo]
 tags: [排序]
 ---
 
 - [冒泡排序](排序/bubble-sort)
-- 插入排序
-- 归并排序
-- 拓扑排序
-- 堆排序
-- 桶排序
-
+- [插入排序](排序/insertion-sort)
+- [归并排序](排序/merge-sort)
+- [快速排序](排序/quick-sort)

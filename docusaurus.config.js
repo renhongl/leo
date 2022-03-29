@@ -45,9 +45,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      metadata: [{ name: 'keywords', content: 'pomelo, renhongl' }],
+      metadata: [{ name: 'keywords', content: 'leo, renhongl' }],
       navbar: {
-        title: '柚子的网站',
+        title: 'Leo',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo2.svg',
@@ -60,6 +60,7 @@ const config = {
             label: '文档',
           },
           { to: '/blog', label: '博客', position: 'left' },
+
           {
             href: 'https://github.com/renhongl',
             label: 'GitHub',
