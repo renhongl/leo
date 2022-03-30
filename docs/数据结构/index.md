@@ -1,6 +1,7 @@
 ---
-slug: /data
-title: 数据结构
+slug: /data-structure
+title: 数据结构/Data Structure
+tags: [数据结构]
 ---
 
 - [顺序表](数据结构/a1)

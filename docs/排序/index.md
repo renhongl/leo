@@ -1,6 +1,6 @@
 ---
 slug: /sort
-title: 排序
+title: 排序/Sort
 tags: [排序]
 ---
 

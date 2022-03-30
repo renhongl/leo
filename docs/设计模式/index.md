@@ -1,5 +1,5 @@
 ---
-slug: /design
+slug: /design-pattern
 title: 设计模式/Design Pattern
 tags: [设计模式]
 ---
