@@ -5,4 +5,3 @@ tags: [算法]
 ---
 
 - [递归](常用算法分析/recursion)
-- [回溯](排序/bubble-sort)
