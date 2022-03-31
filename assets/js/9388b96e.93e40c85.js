@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[8220],{5768:function(s){s.exports=JSON.parse('{"allTagsPath":"/leo/blog/tags","name":"\u6392\u5e8f","count":1,"permalink":"/leo/blog/tags/\u6392\u5e8f"}')}}]);
