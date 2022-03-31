@@ -9,14 +9,14 @@ const config = {
   title: 'Leo',
   tagline: '欢迎访问我的网站',
   url: 'https://renhongl.github.io',
-  baseUrl: '/pomelo/',
+  baseUrl: '/leo/',
 
   //baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'renhongl', // Usually your GitHub org/user name.
-  projectName: 'pomelo', // Usually your repo name.
+  projectName: 'leo', // Usually your repo name.
 
   presets: [
     [
@@ -107,7 +107,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Pomelo.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Leo.`,
       },
       prism: {
         theme: lightCodeTheme,
