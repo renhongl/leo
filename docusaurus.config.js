@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Leo',
+  title: 'Leo Liang',
   tagline: '欢迎访问我的网站',
   url: 'https://renhongl.github.io',
   baseUrl: '/leo/',
@@ -49,7 +49,7 @@ const config = {
     ({
       metadata: [{ name: 'keywords', content: 'leo, renhongl' }],
       navbar: {
-        title: 'Leo',
+        title: 'Leo Liang',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo2.svg',

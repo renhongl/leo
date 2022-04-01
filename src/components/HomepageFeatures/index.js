@@ -4,35 +4,26 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '笔记本',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        记录学习中遇到的问题
-      </>
-    ),
+    title: 'Coding',
+    Svg: require('@site/static/img/education-library-metting-svgrepo-com.svg')
+      .default,
+    description: <>一人，一桌，一电脑</>,
   },
   {
-    title: '资料中心',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        汇总资料，让学习更有效率
-      </>
-    ),
+    title: 'Center',
+    Svg: require('@site/static/img/mushrooms-autumn-nature-svgrepo-com.svg')
+      .default,
+    description: <>思想，方向，未来</>,
   },
   {
-    title: '保存作品',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-       存储所作的项目
-      </>
-    ),
+    title: 'Learning',
+    Svg: require('@site/static/img/book-education-library-2-svgrepo-com.svg')
+      .default,
+    description: <>阅读，整理，记录，复习</>,
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">

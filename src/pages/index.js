@@ -20,6 +20,7 @@ function HomepageHeader() {
           >
             点击这里，查看更多文章
           </Link>
+          
         </div>
       </div>
     </header>
@@ -30,7 +31,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Home`}
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
