@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://renhongl.github.io/leo/blog</id>
-    <title>Leo Blog</title>
+    <title>Leo Liang Blog</title>
     <updated>2022-03-31T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://renhongl.github.io/leo/blog"/>
-    <subtitle>Leo Blog</subtitle>
+    <subtitle>Leo Liang Blog</subtitle>
     <icon>https://renhongl.github.io/leo/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[堆排序]]></title>
