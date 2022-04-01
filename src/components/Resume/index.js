@@ -16,9 +16,9 @@ function Card({ title, children }) {
 }
 
 function Row({ text, link }) {
-  const onLink = () => {
-    window.open(link, '_blank');
-  };
+  // const onLink = () => {
+  //   window.open(link, '_blank');
+  // };
 
   return (
     <div className={styles.rowRow}>
@@ -26,7 +26,7 @@ function Row({ text, link }) {
       {text}
       {link && (
         <img
-          onClick={onLink}
+          // onClick={onLink}
           className={styles.rowLink}
           width="20px"
           height="20px"
