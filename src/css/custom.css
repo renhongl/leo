@@ -52,13 +52,11 @@ a.stackblitz {
 }
 
 .buttons_src-pages-index-module a {
-  background: #d4d5d87d;
-  border: none;
+  background: #d4d5d87d !important;
+  border: none !important;
   color: #fff !important;
-  font-weight: normal;
-  font-size: 14px;
 }
 
 .button--secondary:not(.button--outline):hover {
-  background: #d4d5d87d;
+  background: #d4d5d89c !important;
 }
