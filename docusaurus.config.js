@@ -63,6 +63,7 @@ const config = {
           },
           { to: '/blog', label: '博客', position: 'left' },
           { to: '/about', label: '关于', position: 'left' },
+          { to: '/resume', label: '简历', position: 'left' },
           {
             href: 'https://github.com/renhongl',
             label: 'GitHub',
