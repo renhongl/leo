@@ -55,6 +55,8 @@ a.stackblitz {
   background: #d4d5d87d !important;
   border: none !important;
   color: #fff !important;
+  background-color: #d4d5d87d !important;
+  border-width: 0 !important;
 }
 
 .button--secondary:not(.button--outline):hover {
