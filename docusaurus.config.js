@@ -14,7 +14,7 @@ const config = {
   //baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo2.svg',
   organizationName: 'renhongl', // Usually your GitHub org/user name.
   projectName: 'leo', // Usually your repo name.
 
