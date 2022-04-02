@@ -26,14 +26,13 @@ export default function Home() {
   // };
 
   return (
-    <Layout
-      title={`Resume`}
-      description="Description will go into a meta tag in <head />"
-    >
-      <main>
-        <Resume />
-        {/* <button onClick={downloadPdf}>pdf</button> */}
-      </main>
-    </Layout>
+    // <Layout
+    //   title={`Resume`}
+    //   description="Description will go into a meta tag in <head />"
+    // >
+    //   <main>
+    <Resume />
+    //   </main>
+    // </Layout>
   );
 }
