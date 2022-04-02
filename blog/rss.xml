@@ -4,10 +4,21 @@
         <title>Leo Liang Blog</title>
         <link>https://renhongl.github.io/leo/blog</link>
         <description>Leo Liang Blog</description>
-        <lastBuildDate>Thu, 31 Mar 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 Apr 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[关于如何练习技术的想法]]></title>
+            <link>https://renhongl.github.io/leo/blog/2022/04/02/2022-03/d1</link>
+            <guid>/2022/04/02/2022-03/d1</guid>
+            <pubDate>Sat, 02 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[在系统的学习知识后，封装一些 Javascript 代码，也做一些 React 组件。]]></description>
+            <content:encoded><![CDATA[<p>在系统的学习知识后，封装一些 Javascript 代码，也做一些 React 组件。</p>]]></content:encoded>
+            <category>英语</category>
+            <category>随笔</category>
+            <category>想法</category>
+        </item>
         <item>
             <title><![CDATA[堆排序]]></title>
             <link>https://renhongl.github.io/leo/blog/2022/03/31/2022-03/d1</link>

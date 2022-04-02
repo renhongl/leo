@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://renhongl.github.io/leo/blog</id>
     <title>Leo Liang Blog</title>
-    <updated>2022-03-31T00:00:00.000Z</updated>
+    <updated>2022-04-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://renhongl.github.io/leo/blog"/>
     <subtitle>Leo Liang Blog</subtitle>
-    <icon>https://renhongl.github.io/leo/img/favicon.ico</icon>
+    <icon>https://renhongl.github.io/leo/img/logo2.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[关于如何练习技术的想法]]></title>
+        <id>/2022/04/02/2022-03/d1</id>
+        <link href="https://renhongl.github.io/leo/blog/2022/04/02/2022-03/d1"/>
+        <updated>2022-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在系统的学习知识后，封装一些 Javascript 代码，也做一些 React 组件。]]></summary>
+        <content type="html"><![CDATA[<p>在系统的学习知识后，封装一些 Javascript 代码，也做一些 React 组件。</p>]]></content>
+        <author>
+            <name>Leo</name>
+            <uri>https://github.com/renhongl</uri>
+        </author>
+        <category label="英语" term="英语"/>
+        <category label="随笔" term="随笔"/>
+        <category label="想法" term="想法"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[堆排序]]></title>
         <id>/2022/03/31/2022-03/d1</id>
