@@ -58,12 +58,11 @@ const config = {
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
+            position: 'right',
             label: '文档',
           },
-          { to: '/blog', label: '博客', position: 'left' },
-          { to: '/about', label: '关于', position: 'left' },
-          { to: '/resume', label: '简历', position: 'left' },
+          { to: '/blog', label: '博客', position: 'right' },
+
           {
             href: 'https://github.com/renhongl',
             label: 'GitHub',
@@ -75,12 +74,17 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: '文档',
+            title: '站点内容',
             items: [
               {
-                label: '简介',
+                label: '文档',
                 to: '/docs/intro',
               },
+              {
+                label: '博客',
+                to: '/blog',
+              },
+              { to: '/about', label: '关于作者', position: 'right' },
             ],
           },
           {
@@ -106,6 +110,10 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/renhongl',
+              },
+              {
+                label: '简历',
+                href: 'https://renhongl.github.io/leo/resume',
               },
             ],
           },
