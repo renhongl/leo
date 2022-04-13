@@ -62,12 +62,12 @@ main {
 [data-theme='light'] .buttons_src-pages-index-module a {
   border: none !important;
   color: #000 !important;
-  background-color: #ffffff4a !important;
+  background-color: #a9a9a9b5 !important;
   border-width: 0 !important;
 }
 
 [data-theme='light'] .button--secondary:not(.button--outline):hover {
-  background-color: #ffffff6c !important;
+  background-color: #b6b6b6b5 !important;
 }
 
 [data-theme='light'] .main-wrapper {
@@ -98,7 +98,7 @@ main {
 [data-theme='dark'] .buttons_src-pages-index-module a {
   border: none !important;
   color: #fff !important;
-  background-color: #ffffff4a !important;
+  background-color: #a9a9a9b5 !important;
   border-width: 0 !important;
 }
 
