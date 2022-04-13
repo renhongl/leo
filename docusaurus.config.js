@@ -65,8 +65,9 @@ const config = {
 
           {
             href: 'https://github.com/renhongl',
-            label: 'GitHub',
+            label: ' ',
             position: 'right',
+            class: 'github-link',
           },
         ],
       },
