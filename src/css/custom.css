@@ -42,10 +42,6 @@
   border-radius: 50%;
 }
 
-.navbar {
-  background-color: #ffffff4a;
-}
-
 a.stackblitz {
   background-color: #009688;
   display: inline-block;
@@ -53,6 +49,14 @@ a.stackblitz {
   padding: 5px 10px;
   border-radius: 4px;
   color: #fff;
+}
+
+main {
+  background: none;
+}
+
+[data-theme='light'] .navbar {
+  background-color: #ffffff;
 }
 
 [data-theme='light'] .buttons_src-pages-index-module a {
@@ -66,8 +70,8 @@ a.stackblitz {
   background-color: #ffffff6c !important;
 }
 
-[data-theme='light'] body {
-  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+[data-theme='light'] .main-wrapper {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 [data-theme='light'] .hero {
@@ -76,7 +80,19 @@ a.stackblitz {
 }
 
 [data-theme='light'] .footer {
-  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  background-color: #fff;
+}
+
+[data-theme='light'] .footer__link-item {
+  color: #000;
+}
+
+[data-theme='light'] .footer__copyright {
+  color: #000;
+}
+
+[data-theme='dark'] .footer__copyright {
+  color: #fff;
 }
 
 [data-theme='dark'] .buttons_src-pages-index-module a {
@@ -90,9 +106,14 @@ a.stackblitz {
   background-color: #ffffff6c !important;
 }
 
-[data-theme='dark'] body {
-  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
- background-blend-mode: multiply;
+[data-theme='dark'] .main-wrapper {
+  background: linear-gradient(to bottom, #323232 0%, #3f3f3f 40%, #1c1c1c 150%),
+    linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(0, 0, 0, 0.25) 200%
+    );
+  background-blend-mode: multiply;
 }
 
 [data-theme='dark'] .hero {
@@ -101,5 +122,19 @@ a.stackblitz {
 }
 
 [data-theme='dark'] .footer {
-  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  background: #3d3d3d;
+}
+
+[data-theme='dark'] .navbar {
+  background-color: #3d3d3d;
+}
+
+[data-theme='light']
+  .codeBlockContent_node_modules-\@docusaurus-theme-classic-lib-next-theme-CodeBlock-styles-module {
+  background-color: #fff !important;
+}
+
+[data-theme='dark']
+  .codeBlockContent_node_modules-\@docusaurus-theme-classic-lib-next-theme-CodeBlock-styles-module {
+  background-color: #0381ff14 !important;
 }
