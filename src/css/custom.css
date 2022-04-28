@@ -136,7 +136,7 @@ main {
 
 [data-theme='dark']
   .codeBlockContent_node_modules-\@docusaurus-theme-classic-lib-next-theme-CodeBlock-styles-module {
-  background-color: #0381ff14 !important;
+  background-color: rgb(255 255 255 / 7%) !important;
 }
 
 [data-theme='light'] .github-link:before {
@@ -195,4 +195,13 @@ main {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
+}
+
+#__docusaurus {
+  background: linear-gradient(
+    94deg,
+    rgb(48 48 48) 0%,
+    rgb(20 20 20) 35%,
+    rgb(59 59 59) 100%
+  );
 }
