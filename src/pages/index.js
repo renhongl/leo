@@ -39,7 +39,7 @@ const data = [
   },
   {
     name: '手写JS',
-    logo: '',
+    logo: '/img/js.png',
     sub: '手写New，手写call，手写apply，手写Object.create，手写promise',
     path: '/docs/write-js',
   },
