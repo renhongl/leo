@@ -33,7 +33,7 @@ const data = [
   },
   {
     name: '设计模式',
-    logo: '',
+    logo: '/img/design.png',
     sub: '原型模式，单例模式，适配器模式，状态模式，观察者模式',
     path: '/docs/design-pattern',
   },
