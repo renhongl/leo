@@ -2,6 +2,7 @@
 slug: /leet-code
 title: 力扣算法题/LeetCode
 tags: [力扣算法]
+id: hell
 ---
 
 - [数组，二分查找，链表](力扣算法题/a1)

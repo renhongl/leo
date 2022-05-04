@@ -22,4 +22,12 @@
   justify-content: center;
 }
 
-
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
