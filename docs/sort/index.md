@@ -3,15 +3,15 @@ title: 排序/Sort
 tags: [排序]
 ---
 
-- [冒泡排序](sort/a1)
-- [插入排序](sort/a2)
-- [归并排序](sort/a3)
-- [快速排序](sort/a4)
-- [选择排序](sort/a5)
-- [堆排序](sort/a6)
-- [基数排序](sort/a7)
-- [希尔排序](sort/a8)
-- [计数排序](sort/a9)
+- [冒泡排序](/docs/sort/a1)
+- [插入排序](/docs/sort/a2)
+- [归并排序](/docs/sort/a3)
+- [快速排序](/docs/sort/a4)
+- [选择排序](/docs/sort/a5)
+- [堆排序](/docs/sort/a6)
+- [基数排序](/docs/sort/a7)
+- [希尔排序](/docs/sort/a8)
+- [计数排序](/docs/sort/a9)
 
 ## 时间复杂度
 
