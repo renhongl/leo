@@ -3,20 +3,20 @@ title: 设计模式/Design Pattern
 tags: [设计模式]
 ---
 
-- [适配器模式](设计模式/a1)
-- [状态模式](设计模式/a2)
-- [装饰者模式](设计模式/a3)
-- [中介者模式](设计模式/a4)
-- [职责链模式](设计模式/a5)
-- [享元模式](设计模式/a6)
-- [模板方法模式](设计模式/a7)
-- [命令模式](设计模式/a8)
-- [观察者模式](设计模式/a9)
-- [迭代器模式](设计模式/a90)
-- [代理模式](设计模式/a91)
-- [策略模式](设计模式/a92)
-- [单例模式](设计模式/a93)
-- [原型模式](设计模式/a94)
+- [适配器模式](design-pattern/a1)
+- [状态模式](design-pattern/a2)
+- [装饰者模式](design-pattern/a3)
+- [中介者模式](design-pattern/a4)
+- [职责链模式](design-pattern/a5)
+- [享元模式](design-pattern/a6)
+- [模板方法模式](design-pattern/a7)
+- [命令模式](design-pattern/a8)
+- [观察者模式](design-pattern/a9)
+- [迭代器模式](design-pattern/a90)
+- [代理模式](design-pattern/a91)
+- [策略模式](design-pattern/a92)
+- [单例模式](design-pattern/a93)
+- [原型模式](design-pattern/a94)
 
 ## 简介
 

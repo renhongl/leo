@@ -5,15 +5,15 @@ tags: [数据结构]
 
 常用数据结构
 
-- [数组、字符串](数据结构/a1)
-- [顺序表](数据结构/a1)
-- [链表](数据结构/a2)
-- [队列](数据结构/a3)
-- [双端队列](数据结构/a1)
-- [栈](数据结构/a4)
-- [树](数据结构/a5)
-- [二叉树](数据结构/a6)
-- [堆](数据结构/a7)
+- [数组、字符串](data-structure/a1)
+- [顺序表](data-structure/a1)
+- [链表](data-structure/a2)
+- [队列](data-structure/a3)
+- [双端队列](data-structure/a1)
+- [栈](data-structure/a4)
+- [树](data-structure/a5)
+- [二叉树](data-structure/a6)
+- [堆](data-structure/a7)
 
 高级数据结构
 

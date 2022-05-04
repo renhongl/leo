@@ -38,4 +38,5 @@ module.exports = {
     'design-pattern/a94',
   ],
   js: ['write-js/index', 'write-js/a1'],
+  interview: ['interview/index'],
 };
