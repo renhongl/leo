@@ -13,7 +13,7 @@ export default function Card({ data }) {
           className={styles.rowLink}
           width="40px"
           height="40px"
-          src={useBaseUrl('/img/website-svgrepo-com.svg')}
+          src={useBaseUrl(data.logo || '/img/website-svgrepo-com.svg')}
         />
         <span className={styles.subTitle}>{data.sub}</span>
       </div>

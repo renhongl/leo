@@ -9,7 +9,7 @@ import Card from '@site/src/components/Card';
 const data = [
   {
     name: '力扣算法题',
-    logo: '',
+    logo: '/img/leetcode.svg',
     sub: '两数之和，三数之和，跳跃游戏等各种算法题讲解',
     path: '/docs/leetcode',
   },
