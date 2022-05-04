@@ -15,7 +15,7 @@ const data = [
   },
   {
     name: '排序',
-    logo: '',
+    logo: '/img/sort.png',
     sub: '冒泡排序，快速排序，选择排序，直接插入排序，归并排序，堆排序。。。',
     path: '/docs/sort',
   },
