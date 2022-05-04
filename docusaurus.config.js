@@ -57,9 +57,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'docs',
             position: 'right',
-            label: '文档',
+            label: '力扣',
           },
           { to: '/blog', label: '博客', position: 'right' },
 

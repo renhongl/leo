@@ -20,8 +20,8 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: 'Tutorial',
-      items: ['hello'],
+      label: '力扣算法题',
+      items: ['intro', '力扣算法题/a1'],
     },
   ],
 };
