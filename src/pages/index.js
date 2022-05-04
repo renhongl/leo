@@ -55,7 +55,7 @@ export default function Home() {
     >
       <main className={styles.main}>
         {data.map((item) => (
-          <Link to={item.path}>
+          <Link to={item.path} key={item.path}>
             <Card data={item}></Card>
           </Link>
         ))}
