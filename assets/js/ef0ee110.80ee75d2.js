@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[9021],{3060:function(e){e.exports=JSON.parse('{"name":"\u5b57\u5178","permalink":"/leo/docs/tags/\u5b57\u5178","docs":[{"id":"leetcode/a1","title":"1.\u4e24\u6570\u76f8\u52a0/Two Sum","description":"","permalink":"/leo/docs/leetcode/a1"}],"allTagsPath":"/leo/docs/tags"}')}}]);
