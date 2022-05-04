@@ -21,7 +21,7 @@ const data = [
   },
   {
     name: '数据结构',
-    logo: '/img/data-structure.png',
+    logo: '/img/graph.png',
     sub: '顺序表，链表，队列，栈，树，二叉树，堆，图',
     path: '/docs/data-structure',
   },
