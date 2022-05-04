@@ -19,11 +19,11 @@ tags: [数据结构]
 
 - 完全二叉树
 - 二叉搜索树
-- [优先队列](数据结构/a1)
-- [图](数据结构/a1)
-- [前缀树](数据结构/a1)
-- [线段树](数据结构/a1)
-- [树状数组](数据结构/a1)
+- [优先队列](data-structure/a1)
+- [图](data-structure/a1)
+- [前缀树](data-structure/a1)
+- [线段树](data-structure/a1)
+- [树状数组](data-structure/a1)
 
 ## 线性表
 
