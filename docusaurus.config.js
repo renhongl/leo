@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/leo/',
 
   //baseUrl: '/',
-  // onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
   organizationName: 'renhongl', // Usually your GitHub org/user name.

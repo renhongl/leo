@@ -27,7 +27,7 @@ const data = [
   },
   {
     name: '算法',
-    logo: '',
+    logo: '/img/algorithm.png',
     sub: '递归，回溯，贪心算法，动态规划，广度优先搜索，深度优先搜索',
     path: '/docs/algorithom',
   },
