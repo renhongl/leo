@@ -8,11 +8,28 @@
   padding: 10px;
   position: relative;
   margin: 10px;
+  transition: all 1s;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.card:hover {
+  background: #c6c6c64f;
+}
+
+[data-theme='dark'] .card:hover {
+  background: #c6c6c64f;
+}
+
+[data-theme='dark'] .card {
+  background: #68686840;
 }
 
 .title {
   font-size: 20px;
-  color: green;
+  color: #ff3d71;
   margin-bottom: 10px;
 }
 

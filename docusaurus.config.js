@@ -14,7 +14,7 @@ const config = {
   //baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/logo2.svg',
+  favicon: 'img/logo.svg',
   organizationName: 'renhongl', // Usually your GitHub org/user name.
   projectName: 'leo', // Usually your repo name.
 
@@ -49,27 +49,12 @@ const config = {
     ({
       metadata: [{ name: 'keywords', content: 'leo, renhongl' }],
       navbar: {
-        title: '前端小站',
+        title: '',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo2.svg',
+          src: 'img/logo.svg',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: '力扣算法题/a1',
-            position: 'right',
-            label: '力扣',
-          },
-          { to: '/blog', label: '博客', position: 'right' },
-
-          {
-            href: 'https://github.com/renhongl',
-            label: ' ',
-            position: 'right',
-            class: 'github-link',
-          },
-        ],
+        items: [],
       },
       footer: {
         style: 'dark',
@@ -78,8 +63,8 @@ const config = {
             title: '站点内容',
             items: [
               {
-                label: '文档',
-                to: '/docs/intro',
+                label: '主页',
+                to: '/',
               },
               {
                 label: '博客',
@@ -105,7 +90,7 @@ const config = {
             title: '链接',
             items: [
               {
-                label: '旧博客地址',
+                label: '作者博客',
                 href: 'https://renhongl.github.io/',
               },
               {
