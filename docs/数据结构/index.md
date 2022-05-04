@@ -1,5 +1,4 @@
 ---
-slug: /data-structure
 title: 数据结构/Data Structure
 tags: [数据结构]
 ---

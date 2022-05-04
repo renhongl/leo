@@ -1,5 +1,4 @@
 ---
-slug: /manully
 title: 手写JS
 tags: [手写JS]
 ---

@@ -1,5 +1,4 @@
 ---
-slug: /common-algorithm
 title: 算法/Algorithm
 tags: [算法]
 ---

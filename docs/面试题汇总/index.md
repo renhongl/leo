@@ -1,5 +1,4 @@
 ---
-slug: /interview
 title: 面试题/Interview
 tags: [面试题]
 ---

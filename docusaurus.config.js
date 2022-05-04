@@ -57,7 +57,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'docs',
+            docId: '力扣算法题/a1',
             position: 'right',
             label: '力扣',
           },
