@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[4195],{9294:function(e,u,s){s.r(u),s.d(u,{default:function(){return c}});var t=s(7294),n="home_o84C";function c(){return t.createElement("section",{className:n},"test")}}}]);
