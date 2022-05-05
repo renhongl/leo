@@ -1,5 +1,6 @@
 .home {
-  background: #fff;
+  background: rgb(54, 54, 54);
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }

@@ -4,9 +4,5 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Time from '../Time';
 
 export default function Docker() {
-  return (
-    <section className={styles.docker}>
-      docker
-    </section>
-  );
+  return <section className={styles.docker}></section>;
 }
