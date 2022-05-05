@@ -1,0 +1,11 @@
+.docker {
+  width: 80%;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.486);
+  border-radius: 20px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  backdrop-filter: blur(4px);
+}

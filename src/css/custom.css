@@ -43,7 +43,7 @@ html {
 }
 
 .navbar {
-  position: inherit !important;
+  /* position: inherit !important; */
 }
 
 .navbar__logo img {

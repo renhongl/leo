@@ -1,0 +1,25 @@
+.window {
+  width: 70%;
+  height: 80%;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  top: 51px;
+  transform: translate(-50%, 0px);
+  border-radius: 6px;
+  box-shadow: rgb(0 0 0 / 56%) 0px 22px 70px 4px;
+}
+
+​.title {
+  height: 30px;
+  border-bottom: 1px solid #3b3b3b;
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.content {
+  width: 100%;
+  height: calc(100% - 30px);
+}
