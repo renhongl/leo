@@ -5,8 +5,10 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import Card from '@site/src/components/Card';
+import Category from '@site/src/components/Category';
+import Navi from '@site/src/components/Navi';
 
-const data = [
+const jsList = [
   {
     id: '1',
     name: '力扣算法题',
@@ -49,6 +51,13 @@ const data = [
     sub: '手写New，手写call，手写apply，手写Object.create，手写promise',
     path: '/docs/write-js',
   },
+  {
+    id: '7',
+    name: 'HTTP',
+    logo: '/img/js.png',
+    sub: '手写New，手写call，手写apply，手写Object.create，手写promise',
+    path: '/docs/write-js',
+  },
 ];
 
 export default function Home() {
@@ -59,12 +68,43 @@ export default function Home() {
       title={`Home`}
       description="Description will go into a meta tag in <head />"
     >
+      <Navi></Navi>
       <main className={styles.main}>
-        {data.map((item) => (
-          <Link to={item.path} key={item.id}>
-            <Card data={item}></Card>
-          </Link>
-        ))}
+        <Category title="Javascript">
+          {jsList.map((item) => (
+            <Link to={item.path} key={item.id}>
+              <Card data={item}></Card>
+            </Link>
+          ))}
+        </Category>
+        <Category title="HTML">
+          {jsList.map((item) => (
+            <Link to={item.path} key={item.id}>
+              <Card data={item}></Card>
+            </Link>
+          ))}
+        </Category>
+        <Category title="CSS">
+          {jsList.map((item) => (
+            <Link to={item.path} key={item.id}>
+              <Card data={item}></Card>
+            </Link>
+          ))}
+        </Category>
+        <Category title="React">
+          {jsList.map((item) => (
+            <Link to={item.path} key={item.id}>
+              <Card data={item}></Card>
+            </Link>
+          ))}
+        </Category>
+        <Category title="Angular">
+          {jsList.map((item) => (
+            <Link to={item.path} key={item.id}>
+              <Card data={item}></Card>
+            </Link>
+          ))}
+        </Category>
       </main>
     </Layout>
   );

@@ -27,6 +27,10 @@
   --ifm-color-primary-lightest: #4fddbf;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;
@@ -38,10 +42,13 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.navbar {
+  position: inherit !important;
+}
+
 .navbar__logo img {
   height: 45px;
   margin-top: -7px;
-  margin-left: 20px;
 }
 
 a.stackblitz {
@@ -108,8 +115,13 @@ main {
   background-color: #ffffff6c !important;
 }
 
+.main-wrapper {
+  display: flex;
+}
+
 [data-theme='dark'] .main-wrapper {
   background: #323232;
+  position: relative;
 }
 
 [data-theme='dark'] .hero {
@@ -170,7 +182,7 @@ main {
   background-image: linear-gradient(
     to right,
     #0095ff 0%,
-    #FF3D71 51%,
+    #ff3d71 51%,
     #0095ff 100%
   );
 }

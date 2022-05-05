@@ -1,0 +1,38 @@
+.navi {
+  transition: all 1s;
+  width: 330px;
+}
+
+.content {
+  position: sticky;
+  top: 20px;
+  padding-top: 23px;
+  padding-left: 20px;
+}
+
+.item {
+  border-radius: 10px;
+  box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px,
+    rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 45px;
+  margin-bottom: 10px;
+  color: #000;
+  background: white;
+}
+
+.item:hover {
+  background: #c6c6c64f;
+  cursor: pointer;
+}
+
+[data-theme='dark'] .item:hover {
+  background: #c6c6c64f;
+}
+
+[data-theme='dark'] .item {
+  background: #68686840;
+  color: #fff;
+}
