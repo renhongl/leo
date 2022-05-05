@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './index.module.css';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Time from '../Time';
@@ -6,6 +6,35 @@ import Time from '../Time';
 export default function Window() {
   const [size, setSize] = useState(['80%', '80%']);
   const [expanded, setExpand] = useState(false);
+  const [drag, setDrag] = useState(false);
+  const [prePos, setPrePos] = useState([0, 0]);
+  const [currPos, setCurrPos] = useState(['50%', '50%']);
+
+  useEffect(() => {
+    document.addEventListener('mouseup', mouseUp);
+  }, []);
+
+  function mouseMove(e) {
+    if (drag) {
+      const offsetX = e.screenX - prePos[0];
+      const offsety = e.screenY - prePos[1];
+      console.log(offsetX, offsety);
+      setCurrPos([
+        'calc(50% - ' + offsetX + ')',
+        'calc(50% - ' + offsetY + ')',
+      ]);
+    }
+  }
+
+  function mouseDown(e) {
+    setDrag(true);
+    setPrePos([e.screenX, e.screenY]);
+  }
+
+  function mouseUp() {
+    setDrag(false);
+  }
+
   function onDoubleClick() {
     if (expanded) {
       setSize(['80%', '80%']);
@@ -17,8 +46,13 @@ export default function Window() {
   }
 
   return (
-    <section className={styles.win} style={{ width: size[0], height: size[1] }}>
-      <div className={styles.winTit} onDoubleClick={() => onDoubleClick()}>
+    <section className={styles.win} style={{ width: size[0], height: size[1], left: currPos[0], top: currPos[1] }}>
+      <div
+        onMouseMove={(e) => mouseMove(e)}
+        onMouseDown={(e) => mouseDown(e)}
+        className={styles.winTit}
+        onDoubleClick={() => onDoubleClick()}
+      >
         <span className={styles.red}></span>
         <span className={styles.yellow}></span>
         <span className={styles.gray}></span>
