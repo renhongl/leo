@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import styles from './index.module.css';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Time from '../Time';
+import ReactDOM from 'react-dom';
+import Draggable from 'react-draggable';
 
 export default function Window() {
   const [size, setSize] = useState(['80%', '80%']);
@@ -11,18 +13,20 @@ export default function Window() {
   const [currPos, setCurrPos] = useState(['50%', '50%']);
 
   useEffect(() => {
-    document.addEventListener('mouseup', mouseUp);
+    // document.addEventListener('mouseup', mouseUp);
   }, []);
 
   function mouseMove(e) {
     if (drag) {
       const offsetX = e.screenX - prePos[0];
-      const offsety = e.screenY - prePos[1];
-      console.log(offsetX, offsety);
+      const offsetY = e.screenY - prePos[1];
+      console.log(offsetX, offsetY);
       setCurrPos([
-        'calc(50% - ' + offsetX + ')',
-        'calc(50% - ' + offsetY + ')',
+        'calc(50% - ' + offsetX + 'px)',
+        'calc(50% - ' + offsetY + 'px)',
       ]);
+      setPrePos([e.screenX, e.screenY]);
+      console.log(currPos);
     }
   }
 
@@ -46,7 +50,15 @@ export default function Window() {
   }
 
   return (
-    <section className={styles.win} style={{ width: size[0], height: size[1], left: currPos[0], top: currPos[1] }}>
+    <section
+      className={styles.win}
+      style={{
+        width: size[0],
+        height: size[1],
+        left: currPos[0],
+        top: currPos[1],
+      }}
+    >
       <div
         onMouseMove={(e) => mouseMove(e)}
         onMouseDown={(e) => mouseDown(e)}
