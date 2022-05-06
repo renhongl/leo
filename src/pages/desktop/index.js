@@ -5,6 +5,7 @@ import Header from '../../desktop-components/Header';
 import Docker from '../../desktop-components/Docker';
 import Window from '../../desktop-components/Window';
 import Apps from '../../desktop-components/Apps';
+import Settings from '../../desktop-components/Settings';
 
 const defaultWins = [
   {
@@ -15,6 +16,16 @@ const defaultWins = [
     opened: false,
     active: false,
     mat: true,
+  },
+  {
+    id: 'win10',
+    name: '设置',
+    path: '/leo',
+    icon: 'settings',
+    opened: false,
+    active: false,
+    mat: true,
+    app: <Settings />,
   },
   {
     id: 'win1',
@@ -108,7 +119,7 @@ export default function Home() {
   return (
     <section
       style={{
-        backgroundImage: 'url(' + useBaseUrl('/desktop/bg.svg') + ')',
+        backgroundImage: 'url(' + useBaseUrl('/desktop/b2.svg') + ')',
       }}
       className={styles.home}
     >

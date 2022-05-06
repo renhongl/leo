@@ -12,7 +12,7 @@ export default function Window({ data = {}, toggleWin, toggleActive }) {
       <Draggable
         axis="both"
         handle="#win"
-        defaultPosition={{ x: 50, y: 50 }}
+        defaultPosition={{ x: 400, y: 50 }}
         position={null}
         scale={1}
       >
@@ -53,12 +53,16 @@ export default function Window({ data = {}, toggleWin, toggleActive }) {
               <span className={styles.winText}>{data.name}</span>
             </div>
             <div className={styles.winContent}>
-              <iframe
-                width="100%"
-                height="100%"
-                src={data.path}
-                frameBorder="0"
-              ></iframe>
+              {data.app ? (
+                data.app
+              ) : (
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src={data.path}
+                  frameBorder="0"
+                ></iframe>
+              )}
             </div>
           </section>
         </ResizableBox>
