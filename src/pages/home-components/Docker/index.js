@@ -3,7 +3,7 @@ import styles from './index.module.css';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Time from '../Time';
 
-export default function Docker({ data, toggleWin }) {
+export default function Docker({ data=[], toggleWin }) {
   return (
     <section className={styles.docker}>
       {data.map((item) => (
