@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: center;
   padding: 0 5px;
+  z-index: 1000000;
 }
 
 .itemWrap {
@@ -24,11 +25,16 @@
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: rgba(255, 255, 255, 0.486);
+  background-color: #0095ff;
   margin: 0 7.5px;
   cursor: pointer;
   transition: all 0.5s;
   opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
 }
 
 .item:hover.item::before {
@@ -43,6 +49,7 @@
   transform: translate(-50%, 0);
   white-space: nowrap;
   color: #fff;
+  z-index: 100000;
 }
 
 .item:hover {

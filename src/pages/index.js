@@ -4,9 +4,9 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import Card from '../../components/Card';
-import Category from '../../components/Category';
-import Navi from '../../components/Navi';
+import Card from '../components/Card';
+import Category from '../components/Category';
+import Navi from '../components/Navi';
 
 const jsList = [
   {

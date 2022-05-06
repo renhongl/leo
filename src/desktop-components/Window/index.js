@@ -33,7 +33,7 @@ export default function Window({ data = {}, toggleWin, toggleActive }) {
                 className={styles.red}
                 style={{
                   backgroundImage:
-                    'url(' + useBaseUrl('/home/close-hover.svg') + ')',
+                    'url(' + useBaseUrl('/desktop/close-hover.svg') + ')',
                 }}
               ></span>
               {/* <span

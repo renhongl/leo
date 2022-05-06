@@ -54,7 +54,7 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
-        items: [],
+        items: [{ to: '/desktop', label: '桌面模式', position: 'right' }],
       },
       footer: {
         style: 'dark',
