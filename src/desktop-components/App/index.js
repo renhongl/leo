@@ -28,7 +28,7 @@ export default function App({ data, toggleWin, setShowApps }) {
             setShowApps(false);
           }}
         >
-          <span class="material-symbols-outlined">{data.icon}</span>
+          <span className="material-symbols-outlined">{data.icon}</span>
         </div>
       )}
       <span className={styles.name}>{data.name}</span>

@@ -15,12 +15,11 @@ export default function Docker({
       onClick={() => !showDocker && setShowDocker(true)}
     >
       {data.map((item) => (
-        <div className={styles.itemWrap}>
+        <div className={styles.itemWrap} key={item.id}>
           {!item.mat ? (
             <div
               name={item.name}
               onClick={() => toggleWin(item.id)}
-              key={item.id}
               className={styles.item}
               style={{
                 backgroundImage: 'url(' + useBaseUrl('/img/' + item.icon) + ')',
@@ -30,10 +29,9 @@ export default function Docker({
             <div
               className={styles.item}
               name={item.name}
-              key={item.id}
               onClick={() => toggleWin(item.id)}
             >
-              <span class="material-symbols-outlined">{item.icon}</span>
+              <span className="material-symbols-outlined">{item.icon}</span>
             </div>
           )}
 
