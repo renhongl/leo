@@ -12,6 +12,7 @@ const defaultWins = [
     path: '/leo',
     icon: 'leetcode.svg',
     opened: false,
+    active: false,
   },
   {
     id: 'win2',
@@ -19,6 +20,7 @@ const defaultWins = [
     path: 'https://renhongl.github.io/markdown-editor/',
     icon: 'graph.png',
     opened: false,
+    active: false,
   },
   {
     id: 'win3',
@@ -26,6 +28,7 @@ const defaultWins = [
     path: 'https://renhongl.github.io/code-online/#/',
     icon: 'js.png',
     opened: false,
+    
   },
 ];
 
@@ -45,6 +48,20 @@ export default function Home() {
     });
   }
 
+  function toggleActive(id) {
+    setWins((wins) => {
+      const newWins = [...wins];
+      for (let item of newWins) {
+        if (item.id === id) {
+          item.active = true;
+        } else {
+          item.active = false;
+        }
+      }
+      return newWins;
+    });
+  }
+
   return (
     <section
       style={{
@@ -57,7 +74,12 @@ export default function Home() {
       {wins
         .filter((win) => win.opened)
         .map((win) => (
-          <Window key={win.id} data={win} toggleWin={toggleWin}></Window>
+          <Window
+            key={win.id}
+            data={win}
+            toggleWin={toggleWin}
+            toggleActive={toggleActive}
+          ></Window>
         ))}
     </section>
   );

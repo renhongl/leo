@@ -1,3 +1,8 @@
+.winWrap {
+  position: fixed;
+  z-index: 10;
+}
+
 .win {
   background: #fff;
   position: absolute;
