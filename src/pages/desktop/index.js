@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import styles from './desktop.css';
+import styles from './index.module.css';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import Header from '../desktop-components/Header';
-import Docker from '../desktop-components/Docker';
-import Window from '../desktop-components/Window';
+import Header from '../../desktop-components/Header';
+import Docker from '../../desktop-components/Docker';
+import Window from '../../desktop-components/Window';
 
 const defaultWins = [
   {
     id: 'win1',
     name: '前端小站',
-    path: '/leo',
+    path: '/leo/hom',
     icon: 'leetcode.svg',
     opened: false,
     active: false,
