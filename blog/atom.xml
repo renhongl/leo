@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://renhongl.github.io/leo/blog</id>
+    <id>https://renhongl.github.io/site/blog</id>
     <title>前端小站 Blog</title>
     <updated>2022-03-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://renhongl.github.io/leo/blog"/>
+    <link rel="alternate" href="https://renhongl.github.io/site/blog"/>
     <subtitle>前端小站 Blog</subtitle>
-    <icon>https://renhongl.github.io/leo/img/logo.svg</icon>
+    <icon>https://renhongl.github.io/site/img/logo.svg</icon>
     <entry>
         <title type="html"><![CDATA[关于前端小站]]></title>
         <id>/2022/03/30/2022-03/d1</id>
-        <link href="https://renhongl.github.io/leo/blog/2022/03/30/2022-03/d1"/>
+        <link href="https://renhongl.github.io/site/blog/2022/03/30/2022-03/d1"/>
         <updated>2022-03-30T00:00:00.000Z</updated>
         <author>
             <name>Leo</name>
