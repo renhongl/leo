@@ -13,6 +13,10 @@
   padding: 0 5px;
 }
 
+.itemWrap {
+  position: relative;
+}
+
 .item {
   width: 35px;
   height: 35px;
@@ -30,4 +34,15 @@
 .item:hover {
   opacity: 1;
   transform: scale(1.2);
+}
+
+.opened {
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  width: 4px;
+  height: 4px;
+  background: black;
+  border-radius: 50%;
+  transform: translate(-50%, 0px);
 }
