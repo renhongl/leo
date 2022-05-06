@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './/desktop.css';
+import styles from './desktop.css';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Header from '@site/src/home-components/Header';
 import Docker from '@site/src/home-components/Docker';
