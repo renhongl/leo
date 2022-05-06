@@ -9,6 +9,7 @@ export default function Docker({ data = [], toggleWin }) {
       {data.map((item) => (
         <div className={styles.itemWrap}>
           <div
+            name={item.name}
             onClick={() => toggleWin(item.id)}
             key={item.id}
             className={styles.item}

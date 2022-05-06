@@ -28,7 +28,6 @@ const defaultWins = [
     path: 'https://renhongl.github.io/code-online/#/',
     icon: 'js.png',
     opened: false,
-    
   },
 ];
 
@@ -42,7 +41,7 @@ export default function Home() {
         if (item.id === id) {
           item.opened = !item.opened;
           if (item.opened) {
-            toggleActive(id)
+            toggleActive(id);
           }
           break;
         }

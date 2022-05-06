@@ -31,6 +31,20 @@
   opacity: 0.8;
 }
 
+.item:hover.item::before {
+  content: attr(name);
+  font-size: 12px;
+  left: 50%;
+  top: -40px;
+  position: absolute;
+  background: #0000001f;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transform: translate(-50%, 0);
+  white-space: nowrap;
+  color: #fff;
+}
+
 .item:hover {
   opacity: 1;
   transform: scale(1.2);
