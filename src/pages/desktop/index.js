@@ -7,76 +7,77 @@ import Window from '../../desktop-components/Window';
 import Apps from '../../desktop-components/Apps';
 import Settings from '../../desktop-components/Settings';
 
-const defaultWins = [
-  {
-    id: 'win0',
-    name: '所有应用',
-    path: '/leo',
-    icon: 'home',
-    opened: false,
-    active: false,
-    mat: true,
-  },
-  {
-    id: 'win10',
-    name: '设置',
-    path: '/leo',
-    icon: 'settings',
-    opened: false,
-    active: false,
-    mat: true,
-    app: <Settings />,
-  },
-  {
-    id: 'win1',
-    name: '前端小站',
-    path: '/leo',
-    icon: 'language',
-    opened: false,
-    active: false,
-    mat: true,
-  },
-  {
-    id: 'win2',
-    name: 'Markdown Editor',
-    path: 'https://renhongl.github.io/markdown-editor/',
-    icon: 'border_color',
-    opened: false,
-    active: false,
-    mat: true,
-  },
-  {
-    id: 'win3',
-    name: 'Code Online',
-    path: 'https://renhongl.github.io/code-online/#/',
-    icon: 'code',
-    opened: false,
-    mat: true,
-  },
-  {
-    id: 'win4',
-    name: '隐藏任务栏',
-    path: '/leo',
-    icon: 'keyboard_hide',
-    opened: false,
-    redirct: true,
-    mat: true,
-  },
-  {
-    id: 'win5',
-    name: '退出桌面模式',
-    path: '/leo',
-    icon: 'logout',
-    opened: false,
-    redirct: true,
-    mat: true,
-  },
-];
-
 export default function Home() {
-  const [wins, setWins] = useState(defaultWins);
   const [showApps, setShowApps] = useState(false);
   const [showDocker, setShowDocker] = useState(true);
+  const [bgImg, setBg] = useState('b0.svg');
+  const defaultWins = [
+    {
+      id: 'win0',
+      name: '所有应用',
+      path: '/leo',
+      icon: 'home',
+      opened: false,
+      active: false,
+      mat: true,
+    },
+    {
+      id: 'win10',
+      name: '设置',
+      path: '/leo',
+      icon: 'settings',
+      opened: false,
+      active: false,
+      mat: true,
+      app: <Settings setBg={setBg} />,
+    },
+    {
+      id: 'win1',
+      name: '前端小站',
+      path: '/leo',
+      icon: 'language',
+      opened: false,
+      active: false,
+      mat: true,
+    },
+    {
+      id: 'win2',
+      name: 'Markdown Editor',
+      path: 'https://renhongl.github.io/markdown-editor/',
+      icon: 'border_color',
+      opened: false,
+      active: false,
+      mat: true,
+    },
+    {
+      id: 'win3',
+      name: 'Code Online',
+      path: 'https://renhongl.github.io/code-online/#/',
+      icon: 'code',
+      opened: false,
+      mat: true,
+    },
+    {
+      id: 'win4',
+      name: '隐藏任务栏',
+      path: '/leo',
+      icon: 'keyboard_hide',
+      opened: false,
+      redirct: true,
+      mat: true,
+    },
+    {
+      id: 'win5',
+      name: '退出桌面模式',
+      path: '/leo',
+      icon: 'logout',
+      opened: false,
+      redirct: true,
+      mat: true,
+    },
+  ];
+
+  const [wins, setWins] = useState(defaultWins);
 
   function toggleWin(id) {
     if (id === 'win0') {
@@ -119,7 +120,7 @@ export default function Home() {
   return (
     <section
       style={{
-        backgroundImage: 'url(' + useBaseUrl('/desktop/b2.svg') + ')',
+        backgroundImage: 'url(' + useBaseUrl('/desktop/' + bgImg) + ')',
       }}
       className={styles.home}
     >
