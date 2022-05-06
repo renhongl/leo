@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import styles from './index.module.css';
+import styles from './index.css';
 import Card from '@site/src/components/Card';
 import Category from '@site/src/components/Category';
 import Navi from '@site/src/components/Navi';
