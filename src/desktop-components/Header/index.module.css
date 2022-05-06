@@ -1,9 +1,27 @@
-
-
-.header{
+.header {
   height: 25px;
-    background: #ffffff57;
-    line-height: 25px;
-    font-size: 12px;
-    padding: 0 20px;
+  background: #ffffff99;
+  line-height: 25px;
+  font-size: 12px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.item:hover {
+  background-color: #0095ff;
 }
