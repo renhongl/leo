@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import styles from './index.module.css';
 import Theme from '../Theme';
 
-export default function Settings({ setBg }) {
+export default function Settings({ setBg, addWin }) {
   const [curr, setCurr] = useState();
   const settings = [
     {
-      id: 'win0',
+      id: 'win0000',
       name: '主题',
       path: '/leo',
       icon: 'dark_mode',
@@ -16,7 +16,7 @@ export default function Settings({ setBg }) {
       app: <Theme setBg={setBg} />,
     },
     {
-      id: 'win1',
+      id: 'win1111',
       name: '任务栏',
       path: '/leo',
       icon: 'grid_view',
@@ -25,7 +25,7 @@ export default function Settings({ setBg }) {
       mat: true,
     },
     {
-      id: 'win2',
+      id: 'win2222',
       name: '通用',
       path: '/leo',
       icon: 'settings_suggest',
@@ -34,7 +34,7 @@ export default function Settings({ setBg }) {
       mat: true,
     },
     {
-      id: 'win3',
+      id: 'win3333',
       name: '语言',
       path: '/leo',
       icon: 'language',
@@ -45,20 +45,26 @@ export default function Settings({ setBg }) {
   ];
   return (
     <section className={styles.settingsCon}>
-      {!curr
-        ? settings.map((item) => (
-            <div
-              className={styles.settingsWrap}
-              key={item.id}
-              onClick={() => setCurr(item)}
-            >
-              <div className={styles.settings}>
-                <span className="material-symbols-outlined">{item.icon}</span>
-              </div>
-              <span className={styles.name}>{item.name}</span>
-            </div>
-          ))
-        : curr.app}
+      {settings.map((item) => (
+        <div
+          className={styles.settingsWrap}
+          key={item.id}
+          onClick={() =>
+            addWin({
+              ...item,
+              id: Math.random(),
+              opened: true,
+              active: true,
+              temp: true,
+            })
+          }
+        >
+          <div className={styles.settings}>
+            <span className="material-symbols-outlined">{item.icon}</span>
+          </div>
+          <span className={styles.name}>{item.name}</span>
+        </div>
+      ))}
     </section>
   );
 }

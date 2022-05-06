@@ -30,7 +30,7 @@ export default function Home() {
       opened: false,
       active: false,
       mat: true,
-      app: <Settings setBg={setBg} />,
+      app: <Settings setBg={setBg} addWin={addWin} />,
     },
     {
       id: 'win1',
@@ -80,11 +80,22 @@ export default function Home() {
 
   const [wins, setWins] = useState(defaultWins);
 
+  function addWin(win) {
+    console.log(win);
+    setWins((wins) => {
+      return [...wins, win];
+    });
+  }
+
   function toggleWin(id) {
     if (id === 'win0') {
       return setShowApps(true);
     } else if (id === 'win4') {
       return setShowDocker(false);
+    }
+    const win = wins.find((item) => item.id === id);
+    if (win.temp && win.opened) {
+      return setWins((wins) => wins.filter((item) => item.id !== id));
     }
     setWins((wins) => {
       const newWins = [...wins];

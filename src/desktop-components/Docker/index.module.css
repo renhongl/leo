@@ -19,6 +19,45 @@
   position: relative;
 }
 
+.itemTemp {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #ff3d71;
+  margin: 0 7.5px;
+  cursor: pointer;
+  transition: all 0.5s;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+}
+
+.itemTemp:hover.itemTemp::before {
+  content: attr(name);
+  font-size: 12px;
+  left: 50%;
+  top: -40px;
+  position: absolute;
+  background: #00000062;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transform: translate(-50%, 0);
+  white-space: nowrap;
+  color: #fff;
+  z-index: 100000;
+}
+
+.itemTemp:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
 .item {
   width: 35px;
   height: 35px;

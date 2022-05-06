@@ -20,14 +20,14 @@ export default function Docker({
             <div
               name={item.name}
               onClick={() => toggleWin(item.id)}
-              className={styles.item}
+              className={!item.temp ? styles.item : styles.itemTemp}
               style={{
                 backgroundImage: 'url(' + useBaseUrl('/img/' + item.icon) + ')',
               }}
             ></div>
           ) : (
             <div
-              className={styles.item}
+              className={!item.temp ? styles.item : styles.itemTemp}
               name={item.name}
               onClick={() => toggleWin(item.id)}
             >
