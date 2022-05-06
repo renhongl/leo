@@ -215,7 +215,8 @@ main {
 }
 
 .react-resizable {
-  position: relative;
+  position: fixed;
+  display: flex;
 }
 .react-resizable-handle {
   position: absolute;

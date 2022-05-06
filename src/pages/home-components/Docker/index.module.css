@@ -1,11 +1,33 @@
 .docker {
-  width: 80%;
   height: 54px;
   background: rgba(255, 255, 255, 0.486);
-  border-radius: 20px;
+  border-radius: 16px;
   position: fixed;
   bottom: 10px;
   left: 50%;
   transform: translate(-50%, 0);
   backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+}
+
+.item {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.486);
+  margin: 0 7.5px;
+  cursor: pointer;
+  transition: all 0.5s;
+  opacity: 0.8;
+}
+
+.item:hover {
+  opacity: 1;
+  transform: scale(1.2);
 }

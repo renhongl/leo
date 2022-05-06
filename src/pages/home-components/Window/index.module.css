@@ -21,19 +21,24 @@
   padding: 0 10px;
   line-height: 30px;
   border-bottom: 1px solid #dedede;
+  display: flex;
+  align-items: center;
 }
 
-.red {
-  width: 12px;
-  height: 12px;
+.red,
+.yellow,
+.gray {
+  width: 14px;
+  height: 14px;
   display: inline-block;
-  background-color: #e91e63;
-  border-radius: 50%;
   margin-right: 8px;
   cursor: pointer;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.yellow {
+/* .yellow {
   width: 12px;
   height: 12px;
   display: inline-block;
@@ -51,4 +56,12 @@
   border-radius: 50%;
   margin-right: 8px;
   cursor: pointer;
+} */
+
+.winText {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-left: -10px;
+  pointer-events: none;
 }
