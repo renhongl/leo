@@ -108,7 +108,7 @@ export default function Home() {
   return (
     <section
       style={{
-        backgroundImage: 'url(' + useBaseUrl('/img/home-bg.jpg') + ')',
+        backgroundImage: 'url(' + useBaseUrl('/desktop/bg.svg') + ')',
       }}
       className={styles.home}
     >
