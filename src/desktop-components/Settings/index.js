@@ -43,28 +43,22 @@ export default function Settings({ setBg }) {
       mat: true,
     },
   ];
-
   return (
     <section className={styles.settingsCon}>
-      <div className={styles.back}>
-        <span className="material-symbols-outlined">arrow_back_ios</span>
-      </div>
-      <div className={styles.items}>
-        {!curr
-          ? settings.map((item) => (
-              <div
-                className={styles.settingsWrap}
-                key={item.id}
-                onClick={() => setCurr(item)}
-              >
-                <div className={styles.settings}>
-                  <span className="material-symbols-outlined">{item.icon}</span>
-                </div>
-                <span className={styles.name}>{item.name}</span>
+      {!curr
+        ? settings.map((item) => (
+            <div
+              className={styles.settingsWrap}
+              key={item.id}
+              onClick={() => setCurr(item)}
+            >
+              <div className={styles.settings}>
+                <span className="material-symbols-outlined">{item.icon}</span>
               </div>
-            ))
-          : curr.app}
-      </div>
+              <span className={styles.name}>{item.name}</span>
+            </div>
+          ))
+        : curr.app}
     </section>
   );
 }

@@ -11,6 +11,7 @@ export default function Home() {
   const [showApps, setShowApps] = useState(false);
   const [showDocker, setShowDocker] = useState(true);
   const [bgImg, setBg] = useState('b0.svg');
+
   const defaultWins = [
     {
       id: 'win0',

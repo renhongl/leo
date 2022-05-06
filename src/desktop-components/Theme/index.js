@@ -23,15 +23,11 @@ const data = [
   },
 ];
 
-export default function Theme({ setBg }) {
+export default function Theme({setBg}) {
   return (
     <section className={styles.theme}>
       {data.map((item) => (
-        <img
-          className={styles.img}
-          src={useBaseUrl('/desktop/' + item.path)}
-          onClick={() => setBg(item.path)}
-        />
+        <img src={useBaseUrl('/desktop/' + item.path)} onClick={() => setBg(item.pat)}/>
       ))}
     </section>
   );
