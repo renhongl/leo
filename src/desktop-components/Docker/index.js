@@ -3,9 +3,17 @@ import styles from './index.module.css';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Time from '../Time';
 
-export default function Docker({ data = [], toggleWin }) {
+export default function Docker({
+  data = [],
+  toggleWin,
+  showDocker,
+  setShowDocker,
+}) {
   return (
-    <section className={styles.docker}>
+    <section
+      className={showDocker ? styles.docker : styles.smallDocker}
+      onClick={() => !showDocker && setShowDocker(true)}
+    >
       {data.map((item) => (
         <div className={styles.itemWrap}>
           {!item.mat ? (
@@ -28,7 +36,7 @@ export default function Docker({ data = [], toggleWin }) {
               <span class="material-symbols-outlined">{item.icon}</span>
             </div>
           )}
-         
+
           {item.opened ? <span className={styles.opened}></span> : null}
         </div>
       ))}

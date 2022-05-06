@@ -5,6 +5,7 @@ import Header from '../../desktop-components/Header';
 import Docker from '../../desktop-components/Docker';
 import Window from '../../desktop-components/Window';
 import Apps from '../../desktop-components/Apps';
+import SmallDocker from '../../desktop-components/SmallDocker';
 
 const defaultWins = [
   {
@@ -44,6 +45,15 @@ const defaultWins = [
   },
   {
     id: 'win4',
+    name: '隐藏任务栏',
+    path: '/leo',
+    icon: 'keyboard_hide',
+    opened: false,
+    redirct: true,
+    mat: true,
+  },
+  {
+    id: 'win5',
     name: '退出桌面模式',
     path: '/leo',
     icon: 'logout',
@@ -56,10 +66,13 @@ const defaultWins = [
 export default function Home() {
   const [wins, setWins] = useState(defaultWins);
   const [showApps, setShowApps] = useState(false);
+  const [showDocker, setShowDocker] = useState(true);
 
   function toggleWin(id) {
     if (id === 'win0') {
       return setShowApps(true);
+    } else if (id === 'win4') {
+      return setShowDocker(false);
     }
     setWins((wins) => {
       const newWins = [...wins];
@@ -104,7 +117,13 @@ export default function Home() {
         <Apps data={wins} toggleWin={toggleWin} setShowApps={setShowApps} />
       ) : null}
       <Header></Header>
-      <Docker data={wins} toggleWin={toggleWin}></Docker>
+      <Docker
+        data={wins}
+        toggleWin={toggleWin}
+        showDocker={showDocker}
+        setShowDocker={setShowDocker}
+      ></Docker>
+
       {wins
         .filter((win) => win.opened)
         .map((win) => (
