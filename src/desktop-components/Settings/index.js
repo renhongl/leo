@@ -129,6 +129,7 @@ export default function Settings({ setBg, addWin }) {
                 opened: true,
                 active: true,
                 temp: true,
+                pin: true
               });
               console.log(e)
               e.preventDefault();

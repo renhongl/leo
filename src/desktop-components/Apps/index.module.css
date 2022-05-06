@@ -8,4 +8,29 @@
   align-items: center;
   justify-content: center;
   backdrop-filter: blur(4px);
+  flex-direction: column;
+  overflow: auto;
+}
+
+.center {
+  display: flex;
+  width: 540px;
+  flex-wrap: wrap;
+}
+
+.appsTitle{
+  font-size: 20px;
+}
+
+.appsRow{
+  margin-top: 600px;
+}
+
+.appsRowSec{
+  margin-top: 100px;
+}
+
+.appsRowThir{
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
