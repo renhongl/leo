@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import styles from './desktop.css';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import Header from '@site/src/home-components/Header';
-import Docker from '@site/src/home-components/Docker';
-import Window from '@site/src/home-components/Window';
+import Header from '../deskt-components/Header';
+import Docker from '../deskt-components/Docker';
+import Window from '../deskt-components/Window';
 
 const defaultWins = [
   {
