@@ -7,6 +7,7 @@ import Draggable from 'react-draggable';
 import { Resizable, ResizableBox } from 'react-resizable';
 
 export default function Window({ data, toggleWin }) {
+  const [zIndex, setZIndex] = useState(0);
   return (
     <Draggable
       axis="both"
@@ -14,6 +15,7 @@ export default function Window({ data, toggleWin }) {
       defaultPosition={{ x: 50, y: 50 }}
       position={null}
       scale={1}
+      styles={{zIndex: }}
     >
       <ResizableBox
         width={800}
@@ -22,7 +24,11 @@ export default function Window({ data, toggleWin }) {
         maxConstraints={[Infinity, Infinity]}
       >
         <section className={styles.win}>
-          <div id="win" className={styles.winTit}>
+          <div
+            id="win"
+            className={styles.winTit}
+            onClick={() => setZIndex(zIndex + 10)}
+          >
             <span
               onClick={() => toggleWin(data.id)}
               className={styles.red}
