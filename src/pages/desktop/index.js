@@ -16,7 +16,7 @@ export default function Home() {
     {
       id: 'win0',
       name: '所有应用',
-      path: '/leo',
+      path: '/site',
       icon: 'home',
       opened: false,
       active: false,
@@ -25,7 +25,7 @@ export default function Home() {
     {
       id: 'win10',
       name: '设置',
-      path: '/leo',
+      path: '/site',
       icon: 'settings',
       opened: false,
       active: false,
@@ -35,7 +35,7 @@ export default function Home() {
     {
       id: 'win1',
       name: '前端小站',
-      path: '/leo',
+      path: '/site',
       icon: 'language',
       opened: false,
       active: false,
@@ -61,7 +61,7 @@ export default function Home() {
     {
       id: 'win4',
       name: '隐藏任务栏',
-      path: '/leo',
+      path: '/site',
       icon: 'keyboard_hide',
       opened: false,
       redirct: true,
@@ -70,7 +70,7 @@ export default function Home() {
     {
       id: 'win5',
       name: '退出桌面模式',
-      path: '/leo',
+      path: '/site',
       icon: 'logout',
       opened: false,
       redirct: true,

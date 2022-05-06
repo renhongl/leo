@@ -22,11 +22,11 @@ export default function Window({ data = {}, toggleWin, toggleActive }) {
           minConstraints={[100, 100]}
           maxConstraints={[Infinity, Infinity]}
         >
-          <section className={styles.win}>
+          <section className={styles.win} onClick={() => toggleActive(data.id)}>
             <div
               id="win"
               className={styles.winTit}
-              onClick={() => toggleActive(data.id)}
+              
             >
               <span
                 onClick={() => toggleWin(data.id)}

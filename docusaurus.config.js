@@ -9,14 +9,14 @@ const config = {
   title: '前端小站',
   tagline: '欢迎访问我的网站',
   url: 'https://renhongl.github.io',
-  baseUrl: '/leo/',
+  baseUrl: '/site/',
 
   //baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
   organizationName: 'renhongl', // Usually your GitHub org/user name.
-  projectName: 'leo', // Usually your repo name.
+  projectName: 'site', // Usually your repo name.
 
   presets: [
     [
@@ -99,7 +99,7 @@ const config = {
               },
               {
                 label: '简历',
-                href: 'https://renhongl.github.io/leo/resume',
+                href: 'https://renhongl.github.io/site/resume',
               },
             ],
           },
