@@ -5,7 +5,6 @@ import Header from '../../desktop-components/Header';
 import Docker from '../../desktop-components/Docker';
 import Window from '../../desktop-components/Window';
 import Apps from '../../desktop-components/Apps';
-import SmallDocker from '../../desktop-components/SmallDocker';
 
 const defaultWins = [
   {
