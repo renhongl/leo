@@ -41,6 +41,9 @@ export default function Home() {
       for (let item of newWins) {
         if (item.id === id) {
           item.opened = !item.opened;
+          if (item.opened) {
+            toggleActive(id)
+          }
           break;
         }
       }

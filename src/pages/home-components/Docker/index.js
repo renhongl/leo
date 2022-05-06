@@ -15,9 +15,7 @@ export default function Docker({ data = [], toggleWin }) {
             style={{
               backgroundImage: 'url(' + useBaseUrl('/img/' + item.icon) + ')',
             }}
-          >
-            
-          </div>
+          ></div>
           {item.opened ? <span className={styles.opened}></span> : null}
         </div>
       ))}
