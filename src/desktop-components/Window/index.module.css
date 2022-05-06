@@ -30,8 +30,37 @@
   align-items: center;
 }
 
-.red,
-.yellow,
+.red {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 8px;
+  cursor: pointer;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #ff3d71;
+  border-radius: 50%;
+}
+
+.red:hover {
+  background-image: url(/desktop/close-hover.svg);
+  background-color: rgba(255, 0, 0, 0);
+}
+
+.yellow {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 8px;
+  cursor: pointer;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #f8fc19;
+  border-radius: 50%;
+}
+
 .gray {
   width: 14px;
   height: 14px;
@@ -41,32 +70,14 @@
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
-}
-
-/* .yellow {
-  width: 12px;
-  height: 12px;
-  display: inline-block;
-  background-color: #ffc107;
+  background-color: #dbdbdb;
   border-radius: 50%;
-  margin-right: 8px;
-  cursor: pointer;
 }
-
-.gray {
-  width: 12px;
-  height: 12px;
-  display: inline-block;
-  background-color: #9e9e9ee6;
-  border-radius: 50%;
-  margin-right: 8px;
-  cursor: pointer;
-} */
 
 .winText {
   width: 100%;
   display: inline-block;
   text-align: center;
-  margin-left: -10px;
+  margin-left: -60px;
   pointer-events: none;
 }

@@ -31,25 +31,9 @@ export default function Window({ data = {}, toggleWin, toggleActive }) {
               <span
                 onClick={() => toggleWin(data.id)}
                 className={styles.red}
-                style={{
-                  backgroundImage:
-                    'url(' + useBaseUrl('/desktop/close-hover.svg') + ')',
-                }}
               ></span>
-              {/* <span
-              className={styles.yellow}
-              style={{
-                backgroundImage:
-                  'url(' + useBaseUrl('/home/close-hover.svg') + ')',
-              }}
-            ></span>
-            <span
-              className={styles.gray}
-              style={{
-                backgroundImage:
-                  'url(' + useBaseUrl('/home/close-hover.svg') + ')',
-              }}
-            ></span> */}
+              <span className={styles.yellow}></span>
+              <span className={styles.gray}></span>
               <span className={styles.winText}>{data.name}</span>
             </div>
             <div className={styles.winContent}>
