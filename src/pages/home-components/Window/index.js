@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 import Draggable from 'react-draggable';
 import { Resizable, ResizableBox } from 'react-resizable';
 
-export default function Window({ data={}, toggleWin }) {
+export default function Window({ data = {}, toggleWin }) {
   const [zIndex, setZIndex] = useState(0);
   return (
     <Draggable
