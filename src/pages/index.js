@@ -8,6 +8,13 @@ import Card from '../components/Card';
 import Category from '../components/Category';
 import Navi from '../components/Navi';
 
+const empty = {
+  name: '暂未完成',
+  logo: '/site/img/logo.svg',
+  sub: '暂未完成',
+  path: '',
+}
+
 const jsList = [
   {
     id: '1',
@@ -54,9 +61,9 @@ const jsList = [
   {
     id: '7',
     name: 'HTTP',
-    logo: '/img/js.png',
-    sub: '手写New，手写call，手写apply，手写Object.create，手写promise',
-    path: '/docs/write-js',
+    logo: '/site/img/logo.svg',
+    sub: '暂未完成',
+    path: '',
   },
 ];
 
@@ -64,6 +71,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
 
   return (
+    
     <Layout
       title={`Home`}
       description="Description will go into a meta tag in <head />"
@@ -77,31 +85,10 @@ export default function Home() {
             </Link>
           ))}
         </Category>
-        <Category title="HTML">
-          {jsList.map((item) => (
-            <Link to={item.path} key={item.id}>
-              <Card data={item}></Card>
-            </Link>
-          ))}
-        </Category>
-        <Category title="CSS">
-          {jsList.map((item) => (
-            <Link to={item.path} key={item.id}>
-              <Card data={item}></Card>
-            </Link>
-          ))}
-        </Category>
         <Category title="React">
           {jsList.map((item) => (
-            <Link to={item.path} key={item.id}>
-              <Card data={item}></Card>
-            </Link>
-          ))}
-        </Category>
-        <Category title="Angular">
-          {jsList.map((item) => (
-            <Link to={item.path} key={item.id}>
-              <Card data={item}></Card>
+            <Link to={empty.path} key={item.id}>
+              <Card data={empty}></Card>
             </Link>
           ))}
         </Category>

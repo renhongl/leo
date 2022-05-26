@@ -7,6 +7,7 @@ import Window from '../../desktop-components/Window';
 import Apps from '../../desktop-components/Apps';
 import Settings from '../../desktop-components/Settings';
 
+
 export default function Home() {
   const [showApps, setShowApps] = useState(false);
   const [showDocker, setShowDocker] = useState(true);

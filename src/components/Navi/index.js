@@ -13,17 +13,8 @@ export default function Category({ children }) {
         <a href="#Javascript">
           <div className={styles.item}>Javascript</div>
         </a>
-        <a href="#HTML">
-          <div className={styles.item}>HTML</div>
-        </a>
-        <a href="#CSS">
-          <div className={styles.item}>CSS</div>
-        </a>
         <a href="#React">
           <div className={styles.item}>React</div>
-        </a>
-        <a href="#Angular">
-          <div className={styles.item}>Angular</div>
         </a>
       </div>
     </div>
