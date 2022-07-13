@@ -67,6 +67,15 @@ const jsList = [
   },
 ];
 
+const reactList = [
+  {
+    name: 'React介绍',
+    logo: '/site/img/logo.svg',
+    sub: '暂未完成',
+    path: '/docs/react',
+  },
+];
+
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
 
@@ -85,9 +94,9 @@ export default function Home() {
           ))}
         </Category>
         <Category title="React">
-          {[1, 2, 3, 4].map((item) => (
-            <Link to={empty.path} key={item.id}>
-              <Card data={empty}></Card>
+          {reactList.map((item) => (
+            <Link to={item.path} key={item.name}>
+              <Card data={item}></Card>
             </Link>
           ))}
         </Category>

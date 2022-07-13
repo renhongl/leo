@@ -62,4 +62,5 @@ module.exports = {
     'write-js/a36',
   ],
   interview: ['interview/index'],
+  interview: ['react/index', 'react/a1', 'react/a11', 'react/a12'],
 };
