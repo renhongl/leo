@@ -4877,9 +4877,8 @@
   "resolved" "https://registry.npmjs.org/jsonfile/-/jsonfile-6.1.0.tgz"
   "version" "6.1.0"
   dependencies:
-    "universalify" "^2.0.0"
-  optionalDependencies:
     "graceful-fs" "^4.1.6"
+    "universalify" "^2.0.0"
 
 "keyv@^3.0.0":
   "integrity" "sha512-9ykJ/46SN/9KPM/sichzQ7OvXyGDYKGTaDlKMGCAlg2UK8KRy4jb0d8sFc+0Tt0YYnThq8X2RZgCg74RPxgcVA=="
