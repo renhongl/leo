@@ -69,7 +69,7 @@ const jsList = [
 
 const reactList = [
   {
-    name: 'React介绍',
+    name: 'React',
     logo: '/site/img/logo.svg',
     sub: '暂未完成',
     path: '/docs/react',
