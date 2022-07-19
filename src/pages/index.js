@@ -69,10 +69,23 @@ const jsList = [
 
 const reactList = [
   {
-    name: 'React',
+    name: 'React基本知识',
+    logo: '/site/img/logo.svg',
+    sub: '',
+    path: '/docs/react',
+  },
+
+  {
+    name: 'React Router',
     logo: '/site/img/logo.svg',
     sub: '暂未完成',
-    path: '/docs/react',
+    path: '',
+  },
+  {
+    name: 'React Redux',
+    logo: '/site/img/logo.svg',
+    sub: '暂未完成',
+    path: '',
   },
 ];
 
@@ -97,55 +110,6 @@ export default function Home() {
           {reactList.map((item) => (
             <Link to={item.path} key={item.name}>
               <Card data={item}></Card>
-            </Link>
-          ))}
-        </Category>
-        <Category title="Angular">
-          {[1, 2, 3, 4].map((item) => (
-            <Link to={empty.path} key={item.id}>
-              <Card data={empty}></Card>
-            </Link>
-          ))}
-        </Category>
-        <Category title="Gulp">
-          {[1, 2, 3, 4].map((item) => (
-            <Link to={empty.path} key={item.id}>
-              <Card data={empty}></Card>
-            </Link>
-          ))}
-        </Category>
-        <Category title="Webpack">
-          {[1, 2, 3, 4].map((item) => (
-            <Link to={empty.path} key={item.id}>
-              <Card data={empty}></Card>
-            </Link>
-          ))}
-        </Category>
-        <Category title="Vite">
-          {[1, 2, 3, 4].map((item) => (
-            <Link to={empty.path} key={item.id}>
-              <Card data={empty}></Card>
-            </Link>
-          ))}
-        </Category>
-        <Category title="Nextjs">
-          {[1, 2, 3, 4].map((item) => (
-            <Link to={empty.path} key={item.id}>
-              <Card data={empty}></Card>
-            </Link>
-          ))}
-        </Category>
-        <Category title="Nestjs">
-          {[1, 2, 3, 4].map((item) => (
-            <Link to={empty.path} key={item.id}>
-              <Card data={empty}></Card>
-            </Link>
-          ))}
-        </Category>
-        <Category title="Redux">
-          {[1, 2, 3, 4].map((item) => (
-            <Link to={empty.path} key={item.id}>
-              <Card data={empty}></Card>
             </Link>
           ))}
         </Category>

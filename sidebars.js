@@ -74,5 +74,10 @@ module.exports = {
     'react/a17',
     'react/a18',
     'react/a19',
+    'react/a20',
+    'react/a21',
+    'react/a22',
+    'react/a23',
+    'react/a24',
   ],
 };
