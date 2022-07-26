@@ -137,8 +137,6 @@
 }
 
 .rowLink {
-  position: absolute;
-  right: 0;
   cursor: pointer;
   transition: all 0.2s linear;
 }
@@ -175,4 +173,17 @@
   position: absolute;
   top: 10px;
   left: 4px;
+}
+
+.download {
+  position: fixed;
+  right: 180px;
+  bottom: 60px;
+  /* width: 40px; */
+  background: #29d;
+  padding: 4px 8px;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 40%);
+  cursor: pointer;
 }

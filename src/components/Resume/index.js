@@ -25,13 +25,19 @@ function Row({ text, link }) {
       <span className={styles.rowDot}></span>
       {text}
       {link && (
-        <img
-          // onClick={onLink}
-          className={styles.rowLink}
-          width="20px"
-          height="20px"
-          src={useBaseUrl('/img/link-svgrepo-com.svg')}
-        />
+        <a
+          href={link}
+          target="_blank"
+          style={{ position: 'absolute', right: 0 }}
+        >
+          <img
+            // onClick={onLink}
+            className={styles.rowLink}
+            width="20px"
+            height="20px"
+            src={useBaseUrl('/img/link-svgrepo-com.svg')}
+          />
+        </a>
       )}
     </div>
   );
@@ -49,6 +55,7 @@ function Title({ text, date }) {
 export default function Resume() {
   return (
     <section className={styles.container}>
+      <div className={styles.download}>PDF</div>
       <div className={styles.resume}>
         <div className={styles.content} id="resume">
           <div className={styles.top}>
@@ -60,7 +67,7 @@ export default function Resume() {
                 className={styles.avator}
                 width="20px"
                 height="20px"
-                src={useBaseUrl('/img/logo2.svg')}
+                src="https://avatars.githubusercontent.com/u/16144833?s=400&u=6bca67b08ec005077c82afcb1f011b8746d9970b&v=4"
               />
             </div>
             <div className={styles.info}>
@@ -78,28 +85,40 @@ export default function Resume() {
               <span>Bachelor / Graduated in 2015</span>
               <span className={styles.infoLink}>
                 <span>GitHub</span>&nbsp;
-                <img
-                  width="20px"
-                  height="20px"
-                  src={useBaseUrl('/img/github-octocat-svgrepo-com.svg')}
-                />
+                <a
+                  href="https://github.com/renhongl"
+                  target="_blank"
+                  style={{ display: 'flex' }}
+                >
+                  <img
+                    width="20px"
+                    height="20px"
+                    src={useBaseUrl('/img/github-octocat-svgrepo-com.svg')}
+                  />
+                </a>
               </span>
             </div>
             <div className={styles.info}>
-              <span>Jianghan University Electronic Information</span>
+              <span>Jianghan University / Electronic Information</span>
               <span className={styles.infoLink}>
                 <span>Website</span>&nbsp;
-                <img
-                  width="20px"
-                  height="20px"
-                  src={useBaseUrl('/img/website-svgrepo-com.svg')}
-                />
+                <a
+                  href="https://renhongl.github.io/site/"
+                  target="_blank"
+                  style={{ display: 'flex' }}
+                >
+                  <img
+                    width="20px"
+                    height="20px"
+                    src={useBaseUrl('/img/website-svgrepo-com.svg')}
+                  />
+                </a>
               </span>
             </div>
             <div className={styles.info}>
               <span>7 years experience on frond-end development</span>
               <span className={styles.infoLink}>
-                <span>88696630</span>&nbsp;
+                <span>(+65) 8869 8830</span>&nbsp;
                 <img
                   width="20px"
                   height="20px"
@@ -161,15 +180,15 @@ export default function Resume() {
                 ></Row>
                 <Row
                   text="Online javascript editor"
-                  link="https://renhongl.github.io/markdown-editor/"
+                  link="https://renhongl.github.io/code-online#/"
                 ></Row>
                 <Row
                   text="Web chat room"
-                  link="https://renhongl.github.io/markdown-editor/"
+                  link="https://renhongl.github.io/2016/11/24/%E5%BA%94%E7%94%A8%E5%B9%B3%E5%8F%B0WEB/"
                 ></Row>
                 <Row
                   text="Music player for desktop"
-                  link="https://renhongl.github.io/markdown-editor/"
+                  link="https://renhongl.github.io/2017/01/21/%E7%88%B1%E5%90%AC%E6%92%AD%E6%94%BE%E5%99%A8/"
                 ></Row>
               </Card>
               <Card title="Hobby">

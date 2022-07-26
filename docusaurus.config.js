@@ -37,6 +37,9 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve(
+            'https://fonts.googleapis.com/icon?family=Material+Icons'
+          ),
         },
       }),
     ],
