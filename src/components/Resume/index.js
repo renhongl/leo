@@ -55,7 +55,19 @@ function Title({ text, date }) {
 export default function Resume() {
   return (
     <section className={styles.container}>
-      <div className={styles.download}>PDF</div>
+      <div className={styles.download}>
+        <span
+          className="material-icons"
+          style={{
+            boxShadow: '0 0 10px rgb(0 0 0 / 50%)',
+            fontSize: '50px',
+            color: '#0095ff',
+            borderRadius: '50%',
+          }}
+        >
+          download_for_offline
+        </span>
+      </div>
       <div className={styles.resume}>
         <div className={styles.content} id="resume">
           <div className={styles.top}>

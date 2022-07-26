@@ -179,11 +179,5 @@
   position: fixed;
   right: 180px;
   bottom: 60px;
-  /* width: 40px; */
-  background: #29d;
-  padding: 4px 8px;
-  color: #fff;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgb(0 0 0 / 40%);
   cursor: pointer;
 }
