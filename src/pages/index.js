@@ -71,7 +71,7 @@ const reactList = [
   {
     name: 'React基本知识',
     logo: '/site/img/logo.svg',
-    sub: '',
+    sub: '类组件和函数组件',
     path: '/docs/react',
   },
 
@@ -82,10 +82,31 @@ const reactList = [
     path: '',
   },
   {
-    name: 'React Redux',
+    name: 'React和Redux',
     logo: '/site/img/logo.svg',
-    sub: '',
+    sub: '包含Redux Toolkit',
     path: '/docs/react-redux',
+  },
+  {
+    name: '手写React和Redux',
+    logo: '/site/img/logo.svg',
+    sub: '暂未完成',
+    path: '',
+  },
+];
+
+const buildList = [
+  {
+    name: 'Webpack',
+    logo: '/site/img/logo.svg',
+    sub: '暂未完成',
+    path: '',
+  },
+  {
+    name: 'Vite',
+    logo: '/site/img/logo.svg',
+    sub: '暂未完成',
+    path: '',
   },
 ];
 
@@ -108,6 +129,13 @@ export default function Home() {
         </Category>
         <Category title="React">
           {reactList.map((item) => (
+            <Link to={item.path} key={item.name}>
+              <Card data={item}></Card>
+            </Link>
+          ))}
+        </Category>
+        <Category title="打包">
+          {buildList.map((item) => (
             <Link to={item.path} key={item.name}>
               <Card data={item}></Card>
             </Link>

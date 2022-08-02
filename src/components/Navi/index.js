@@ -16,6 +16,9 @@ export default function Category({ children }) {
         <a href="#React">
           <div className={styles.item}>React</div>
         </a>
+        <a href="#打包">
+          <div className={styles.item}>打包</div>
+        </a>
       </div>
     </div>
   );
