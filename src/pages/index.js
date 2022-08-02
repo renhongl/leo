@@ -84,8 +84,8 @@ const reactList = [
   {
     name: 'React Redux',
     logo: '/site/img/logo.svg',
-    sub: '暂未完成',
-    path: '',
+    sub: '',
+    path: '/docs/react-redux',
   },
 ];
 

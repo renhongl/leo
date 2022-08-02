@@ -62,7 +62,7 @@ module.exports = {
     'write-js/a36',
   ],
   interview: ['interview/index'],
-  interview: [
+  react: [
     'react/index',
     'react/a1',
     'react/a11',
@@ -79,5 +79,12 @@ module.exports = {
     'react/a22',
     'react/a23',
     'react/a24',
+  ],
+  reactRedux: [
+    'react-redux/index',
+    'react-redux/a1',
+    'react-redux/a2',
+    'react-redux/a3',
+    'react-redux/a4',
   ],
 };
