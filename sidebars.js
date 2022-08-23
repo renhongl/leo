@@ -87,4 +87,10 @@ module.exports = {
     'react-redux/a3',
     'react-redux/a4',
   ],
+  redux: [
+    'write-redux/index',
+    'write-redux/a1',
+    'write-redux/a2',
+    'write-redux/a3',
+  ],
 };

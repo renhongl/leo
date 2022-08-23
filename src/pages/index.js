@@ -88,10 +88,10 @@ const reactList = [
     path: '/docs/react-redux',
   },
   {
-    name: '手写React和Redux',
+    name: '手写Redux',
     logo: '/site/img/logo.svg',
-    sub: '暂未完成',
-    path: '',
+    sub: 'createStore, combineReducers, applyMiddleware',
+    path: '/docs/write-redux',
   },
 ];
 
