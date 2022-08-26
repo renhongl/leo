@@ -90,8 +90,14 @@ const reactList = [
   {
     name: '手写Redux',
     logo: '/site/img/logo.svg',
-    sub: 'createStore, combineReducers, applyMiddleware',
+    sub: 'reateStore, combineReducers, applyMiddleware',
     path: '/docs/write-redux',
+  },
+  {
+    name: '手写React',
+    logo: '/site/img/logo.svg',
+    sub: 'Compile JSX, React.createElement, ReactDOM.render, Component lifecycle',
+    path: '/docs/write-react',
   },
 ];
 

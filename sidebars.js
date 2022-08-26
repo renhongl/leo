@@ -93,4 +93,10 @@ module.exports = {
     'write-redux/a2',
     'write-redux/a3',
   ],
+  react: [
+    'write-react/index',
+    'write-react/a1',
+    'write-react/a2',
+    'write-react/a3',
+  ],
 };
